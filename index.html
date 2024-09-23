@@ -4,43 +4,99 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Your project's description here.">
+  <meta property="og:title" content="Your Project Title"/>
+  <meta property="og:description" content="A brief description of your project."/>
+  <meta property="og:image" content="static/image/og_banner.png" />
+  <meta name="twitter:title" content="Your Project Title">
+  <meta name="twitter:description" content="A brief description of your project.">
+  <meta name="twitter:image" content="static/images/twitter_banner.png">
+  <meta name="keywords" content="AI, Computer Vision, Research, Paper">
   <title>Your Project Title</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="static/images/favicon.ico">
-
-  <!-- External CSS (Bulma and FontAwesome) -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="static/css/index.css">
 </head>
 
 <body>
-
   <!-- Hero Section -->
-  <section class="hero is-dark">
+  <section class="hero">
     <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title is-1">Your Project Title</h1>
+      <div class="container text-center">
+        <h1 class="title">Your Project Title</h1>
         <h2 class="subtitle">Short introduction about your project or paper</h2>
-        <div class="buttons is-centered">
-          <a href="https://github.com/yourusername/yourproject" class="button is-primary is-rounded">GitHub</a>
-          <a href="https://arxiv.org/abs/xxxx.xxxxx" class="button is-dark is-rounded">arXiv</a>
-          <a href="https://yourwebsite.com/paper.pdf" class="button is-dark is-rounded">PDF</a>
+        <div class="button-group">
+          <a href="https://github.com/yourusername/yourproject" class="button">GitHub</a>
+          <a href="https://arxiv.org/abs/xxxx.xxxxx" class="button">arXiv</a>
+          <a href="https://yourwebsite.com/paper.pdf" class="button">PDF</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Your other sections... -->
+  <!-- Video Teaser Section -->
+  <section class="section">
+    <div class="container">
+      <video controls autoplay loop muted class="video-teaser">
+        <source src="static/videos/your_teaser_video.mp4" type="video/mp4">
+      </video>
+      <p class="text-center">Brief description of the teaser video.</p>
+    </div>
+  </section>
+
+  <!-- Abstract Section -->
+  <section class="section">
+    <div class="container text-center">
+      <h2 class="title">Abstract</h2>
+      <p class="content">
+        Add the abstract of your paper here. This section will give an overview of your research problem, method, and key findings.
+      </p>
+    </div>
+  </section>
+
+  <!-- Results and Images -->
+  <section class="section">
+    <div class="container">
+      <h2 class="title text-center">Results</h2>
+      <div class="image-row">
+        <div class="image-column">
+          <img src="static/images/result_image_1.png" alt="Result Image 1" class="image">
+        </div>
+        <div class="image-column">
+          <img src="static/images/result_image_2.png" alt="Result Image 2" class="image">
+        </div>
+      </div>
+      <p class="content text-center">Explanation of the images showing your research results.</p>
+    </div>
+  </section>
+
+  <!-- Conclusion and BibTeX -->
+  <section class="section">
+    <div class="container text-center">
+      <h2 class="title">Conclusion</h2>
+      <p class="content">
+        Conclude your findings here. Discuss the impact, implications, and any next steps in your research.
+      </p>
+    </div>
+
+    <div class="container">
+      <h2 class="title text-center">BibTeX</h2>
+      <pre><code>
+@article{your_paper_2024,
+  title={Your Paper Title},
+  author={Author, A and Author, B and Author, C},
+  journal={Your Journal},
+  year={2024},
+  publisher={Your Publisher}
+}
+      </code></pre>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="footer has-background-dark has-text-white">
-    <div class="content has-text-centered">
+  <footer class="footer">
+    <div class="container text-center">
       <p>&copy; 2024 Your Name. <a href="https://github.com/yourusername/yourproject">Source Code</a>.</p>
-      <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="has-text-white">CC BY-SA 4.0</a>.</p>
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
     </div>
   </footer>
 
