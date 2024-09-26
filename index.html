@@ -1,0 +1,366 @@
+
+<!-- saved from url=(0035)https://diffusion-vision.github.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- from MDCA -->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Nimol Thuon">
+    <meta name="description"
+        content="Multimodal Understanding: SYLLABLE ANALYSIS AUGMENTATION STRANGY IN PALM-LEAF PROJECT">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="">
+    <!-- Format -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="../format/app.css">
+    <link rel="stylesheet" href="../format/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    <script src="../format/app.js"></script>
+
+    <title>SADA - PALM-LEAF SYLLABLE ANALYSIS PROJECT</title>
+    <!-- <link rel="icon" href="iitd_logo.png" type="image/png"> -->
+    <link rel="icon" href="" type="image/png">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="stylesheet" href="./css/css2">
+    <style>
+        .title {
+          color: black; /* Set default color */
+        }
+      
+        .gray-text {
+          color: #828282; /* Use your desired shade of grey */
+          /* Bold*/
+          font-weight: bold;
+        }
+        .gray-text2 {
+          color: #515151; /* Use your desired shade of grey */
+          /* Bold*/
+          font-weight: bold;
+        }
+        .author {
+            color: #088df3; /* Use your desired shade of grey */
+        }
+        .affiliations2 {
+            color: #7d7d7d; /* Use your desired shade of grey */
+            text-align: center;
+            font-size: smaller;
+        }
+        .affiliations {
+            font-size: larger;
+        }
+        .logo {
+            position: fixed;
+        }
+        .logo img {
+            position: fixed;
+            width: 90px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            top: 10px; /* Adjust as needed */
+            right: 10px; /* Adjust as needed */
+            z-index: 999; /* Ensure the logo appears on top of other content */
+            
+        }
+        .center {
+            text-align: center;
+        }
+        .bigger-font {
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+        .bold-text {
+            font-weight: bold;
+        }
+        .left-align {
+            text-align: left;
+        }
+        .font-size-author-names {
+            font-size: 21px;
+        }
+        .center-align {
+            text-align: center;
+        }
+        .section{
+            font-size: 150%;
+            font-weight: 500;
+            /* background: rgba(0,0,0,0.03); */
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            color: #565656;
+            text-align: center;
+            /* padding-left: 0.5em; */
+        }
+      </style>
+    </head>
+    
+<body data-new-gr-c-s-check-loaded="14.1162.0" data-gr-ext-installed="">
+    <div class="container">
+    <!-- <div class="BbxBP a3ETed K5Zlne" jsname="WA9qLc" jscontroller="RQOkef" jsaction="rcuQ6b:ywL4Jf;VbOlFf:ywL4Jf;FaOgy:ywL4Jf; keydown:Hq2uPe; wheel:Ut4Ahc;" data-top-navigation="true" data-is-preview="true"></div> -->
+<!--     <div class="logo">
+        <img src="" alt="Logo">
+    </div> -->
+    <p class="title"><span class="gray-text">SADA</span><br>Multimodal Understanding: SYLLABLE ANALYSIS AUGMENTATION STRANGY IN PALM-LEAF PROJECT</p>
+    <p class="gray-text2 center bigger-font">APSIPA ASC 20222, PRL 2024 (Under Review)</p>
+    <!-- <p class="title">Effective Conditioning of Diffusion Models for Monocular Depth Estimation</p> -->
+
+    <p class="author">
+        <span class="author font-size-author-names">
+            <a href="">
+            Nimol&nbsp;Thuon*</a>
+        </span>
+        <span class="author font-size-author-names">
+            <a href="https://www.linkedin.com/in/aradhye-agarwal-a545a4218/">
+                Jun&nbsp;Du*</a>
+        </span>
+        <span class="author font-size-author-names">
+            <a href="https://www.cse.iitd.ac.in/~chetan">
+                Jianshu&nbsp;Zhang</a>
+        </span>
+          <span class="author font-size-author-names">
+            <a href="https://www.cse.iitd.ac.in/~chetan">
+                Sada&nbsp;Thuon</a>
+        </span>
+    </p>
+    <div class="affiliations">
+        <!-- <a href="https://home.iitd.ac.in/"> -->
+            1. National Engineering Laboratory for Speech and 
+Language Information Processing (NEL-SLIP),
+
+University of Science and Technology of China, Hefei, Anhui, China
+
+
+        <!-- </a> -->
+    </div>
+        <div class="affiliations">
+        <!-- <a href="https://home.iitd.ac.in/"> -->
+           2. iFLYTEK Research, Hefei, Anhui, China
+
+
+        <!-- </a> -->
+    </div>
+            <div class="affiliations">
+        <!-- <a href="https://home.iitd.ac.in/"> -->
+           3. One to Many Cambodia, Cambodia
+
+
+        <!-- </a> -->
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12 col-md-offset-1 text-center">
+            <ul class="nav nav-pills nav-justified">
+                <li>
+                    <a href="https://ieeexplore.ieee.org/document/9980217">
+                        <img src="assets/fig/21.jpg" height="80px"><br>
+                        <h5><strong>KH-SADA</strong></h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="assets/fig/21.jpg" height="80px"><br>
+                        <h5><strong>PALM-SADA(Under Review)</strong></h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="assets/github_icon.png" height="80px"><br>
+                            <h5><strong>KH-SADA</strong></h5>
+                        </a>
+                </li>
+                    <li>
+                    <a href="">
+                        <img src="assets/github_icon.png" height="80px"><br>
+                            <h5><strong>PALM-SADA(SOON)</strong></h5>
+                        </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <p class="section center">Project Descriptions</p>
+    <p>
+ 
+This project aims to study and analyze ancient low languages, including Balinese, Khmer, and Sundanese, through text recognition methodologies and benchmarking, proposing effective solutions for the challenges posed by complex, multi-script languages. The unique characteristics and physical conditions of palm leaf manuscripts have garnered increasing attention from researchers. While data augmentation is a common technique in training models, issues such as grammatical errors and limited data availability can significantly impact accuracy.
+
+Two major challenges identified are (1) grammar complexity and (2) word similarity. To address these, we introduce the Syllable Analysis Data Augmentation (SADA) technique, designed to enhance the accuracy of text recognition systems for Southeast Asia’s historical manuscripts, particularly those from Cambodia. SADA includes two core modules: (1) the formulation of a syllable/word collection to structure glyph patterns, and (2) the generation of additional patterns through augmentation techniques, employing flexible geometric transformations to create diverse images of similar words or texts.
+
+Our approach consists of two steps. First, we will implement KH-SADA using DenseNet with GRU attention-based syllable analysis for initial attempts at improving recognition. Second, we will present a multimodal framework for multi-script recognition, incorporating all scripts by designing enhanced grammar structures and employing multiple transformer-based approaches to correct grammatical mistakes.
+
+Initially, we will establish image collections and interpret datasets according to reordered grammatical structures, constructing multiple glyph images. Subsequent experiments will utilize a text/word recognition system, integrating an attention-based encoder-decoder to improve transcription accuracy for both low- and high-resolution images. Finally, we will evaluate our findings using datasets from various sources, including public datasets from the ICFHR 2018 contest and our newly augmented datasets, aiming to demonstrate and enhance the overall accuracy of the text recognition system.
+    </p>
+    <p class="section center-align">Overall Objective Frameworks.</p>
+
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure>
+        <img src="./assets/fig/6.JPG">
+        <figcaption class="left-align"><span class="bold-text">Challenges: </span>Ancient languages are defined by their unique scripts, including Khmer, Balinese, and Sundanese, which all belong to the Austroasiatic language family. Each of these languages features complex writing systems that may include subscripts. Their writing structures are characterized by distinct glyphs, including diacritical marks and independent characters, highlighting the intricacies of syllable clustering and writing forms.The dataset used in this study is constructed from images of palm leaf manuscripts, capturing a variety of glyphs, words, and text-line documents across these three scripts. A glyph serves as a fundamental component of a syllable, consisting of one or a few consonants and vowels. In this analysis, glyph images are matched to syllables based on correct writing forms, supported by flexible geometric transformations. Most primary syllables across these languages consist of consonants and vowels, evident in the palm leaf datasets.Each language exhibits unique word-level structures, typically organized into three levels: upper level (for vowels and subscripts), main level (for central consonants), and bottom level (for subscripts and specific vowels). The grouping of glyphs to form words adds to the complexity of these languages. Key considerations include the arrangement of glyphs and the grammatical rules governing their combinations. The main level may contain consonants, while the upper and bottom levels accommodate vowels and diacritical marks. Understanding the order and positioning of each glyph type is crucial for accurate formation.Syllables can comprise one or two consonant clusters. Depending on the type of vowels, these languages may position vowels either in front of or behind the consonants, as illustrated in the accompanying figures.
+
+</figcaption>
+        </figure>
+    </div>  
+
+
+
+    <p class="section center-align">Example of Word Level</p>
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/1.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">Details: </span>
+                 a) Upper level for vowel and individual subscript;b) Main level for central consonant and singular consonant; c) Bottom level
+for subscript and particular vowel.
+            </figcaption>
+        </figure>
+    </div>
+        <p class="section center-align">A group of glyph images samples.</p>
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/2.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">Details: </span>
+                a) Two input images represent vowel “ee” and consonant “Kha”; b) For glyphs order: some
+vowels can be in front, and some vowels stay behind consonants; c) For writing order: consonants always stay in front of vowels.
+            </figcaption>
+        </figure>
+    </div>
+    <script>
+        window.onload = function() {
+            var videoIframe = document.getElementById('video-iframe');
+            var videoContainer = document.getElementById('video-container');
+            
+            videoIframe.onload = function() {
+                // var aspectRatio = this.width / this.height;
+                var aspectRatio = 1562/720;
+                var containerWidth = videoContainer.offsetWidth;
+                var containerHeight = containerWidth / aspectRatio;
+                videoIframe.style.width = containerWidth + 'px';
+                videoIframe.style.height = containerHeight + 'px';
+            }
+        };
+    </script>
+
+
+    <p class="section" style="color: darkred;"><strong>Paper 1: Syllable Analysis Data Augmentation for Khmer
+Ancient Palm leaf Recognition</strong></p>
+  This paper explores the recognition of Khmer palm leaf manuscripts, highlighting the challenges of grammar complexity and word similarity. We introduce the Syllable Analysis Data Augmentation (SADA) technique to enhance text recognition accuracy. SADA includes two modules: (1) creating a collection of syllables to structure glyph patterns, and (2) generating diverse text images through augmentation techniques. Our experiments will use datasets from various sources, including the ICFHR 2018 contest, to evaluate and improve transcription accuracy for low- and high-resolution images.
+
+        <p class="section center-align">The diagram aims at providing an overview of KH-SADA architecture</p>
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/7.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">Details: </span>
+                In the first phase, we construct new syllable datasets by pairing multiple isolated images based on the glyph dictionary. The flexible data augmentation will then generate this augmentation based on random moving states on the newly generated datasets as well as existing datasets. Finally, we perform encoder-decoder text recognition to inspect the results based on the different sizes of the data.
+            </figcaption>
+        </figure>
+    </div>
+   
+
+        <p class="section center-align">Generated Dataset Process.</p>
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/17.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">Details: </span>
+              This summarizes the process of generating new words by combining character-based and syllable-based models.
+
+
+            </figcaption>
+        </figure>
+    </div>
+        <p class="section center-align">Results</p>
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/16.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">Details: </span>
+               Here are the results from our proposed methods using different datasets.
+            </figcaption>
+        </figure>
+    </div>
+        <p class="section center-align">Results Analysis</p>
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/18.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">Details: </span>
+               The example of prediction with attention visualizations. The outputs
+were correctly predicted by using (a) DenseNet-GRU with SADA techniques
+and (b) DenseNet-GRU without any pre-processing techniques.
+            </figcaption>
+        </figure>
+
+    </div>
+        <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/19.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">Details: </span>
+               Analysis of the prediction results, highlighting on the effectiveness
+and limitations of the SADA datasets.
+            </figcaption>
+        </figure>
+        
+    </div>
+        <p class="section" style="color: darkred;"><strong c>Paper 2: Syllable-Based Augmentation and Recognition in Multi-Script for Multimodal Understanding (Under review)</strong></p>
+  This paper investigates multi-script recognition by integrating advanced multimodal techniques and encoder-decoder architectures specifically designed to address current challenges in palm leaf manuscript recognition. <h3><strong>Detailed methodologies and code will be available upon acceptance of the paper. Thank you for your attention.</strong></h3>
+
+         <p class="section center-align">Hightlight</p>
+    <div class="flex-container margin-top-1em margin-bottom-1em">
+        <figure class="center-align">
+            <div id="video-container">
+
+            <img src="./assets/fig/20.JPG">
+            </div>
+            <figcaption class="left-align">
+                <span class="bold-text">
+            </figcaption>
+        </figure>
+
+    </div>
+
+
+<p class="section">BibTeX (Citation)</p>
+<pre class="selectable"><code>
+@INPROCEEDINGS{9980217,
+  author={Thuon, Nimol and Du, Jun and Zhang, Jianshu},
+  booktitle={2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}, 
+  title={Syllable Analysis Data Augmentation for Khmer Ancient Palm leaf Recognition}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1855-1862},
+  keywords={Training;Dictionaries;Image recognition;Text recognition;System performance;Information processing;Feature extraction},
+  doi={10.23919/APSIPAASC55919.2022.9980217}}
+
+</code></pre>
+    
+</div>
+</body>
+</html>
